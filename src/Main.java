@@ -1,5 +1,6 @@
 import L04.Hero.Circle;
 import L04.Hero.Hero;
+import L04.Latin;
 
 import java.sql.SQLOutput;
 
@@ -20,7 +21,7 @@ public class Main {
         if (hero.alive()){
             System.out.println("Alive!");
         }else System.out.println("Dead");
-        Circle.CIRCLE.distance(Circle.CIRCLE);
+        System.out.println(Latin.M.getNumber());
     }
 }
 
